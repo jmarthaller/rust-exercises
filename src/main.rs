@@ -14,4 +14,10 @@ fn main() {
         jacob.1,
         jacob.2.join(", ")
     );
+
+    println!("\n\n\n");
+
+    // print!("\t\t\tWow that's {0} but also {1}", "good", "bad");
+
+    println!("The summation of 25 & 10 is {}", 25 + 10);
 }
