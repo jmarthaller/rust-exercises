@@ -124,4 +124,15 @@ fn main() {
     // println!("The isEmpty of non_string is: {}", non_string.is_empty());
 
     // Tuples and Arrays
+    // let tuple: (i32, f64, char) = (500, 6.4, 'a');
+    // let salary = tuple.0
+    // let rate = tuple.1
+    // let characters = tuple.2
+    // println!(
+    //     "The value of tuple is {salary}, {rate}, {characters}",
+    //     salary, rate, characters
+    // );
+
+    let mut number_array: [i32; 5] = [1, 2, 3, 4, 5];
+    println!("The value of number_array is {:?}", number_array);
 }
