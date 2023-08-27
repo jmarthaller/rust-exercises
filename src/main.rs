@@ -57,40 +57,71 @@ fn main() {
     // println!("The value of my correctors is {:?}", (a, b, c));
 
     // let (first_number: i32, second_number: f64) = (250, 428.22);
-    let large_number: i32 = 1_000_000;
-    println!("The value of large_number is {}", large_number);
+    // let large_number: i32 = 1_000_000;
+    // println!("The value of large_number is {}", large_number);
 
-    let x: i32 = 255;
-    println!(
-        "The value of x is in octal is {:o} and in hexadecimal is {:X} ,binary is {:b}",
-        x, x, x
-    );
+    // let x: i32 = 255;
+    // println!(
+    //     "The value of x is in octal is {:o} and in hexadecimal is {:X} ,binary is {:b}",
+    //     x, x, x
+    // );
 
-    // Everything in snake case
+    // // Everything in snake case
 
-    let n1 = 14;
-    let n2 = 14.1;
-    let n3 = n1 as f32 + n2;
-    println!("The value of n3 is {}", n3);
+    // let n1 = 14;
+    // let n2 = 14.1;
+    // let n3 = n1 as f32 + n2;
+    // println!("The value of n3 is {}", n3);
 
-    // Shadowing
-    let s: i32 = 5;
-    let s: i32 = 5 * 5;
+    // // Shadowing
+    // let s: i32 = 5;
+    // let s: i32 = 5 * 5;
 
-    println!("The value of s is {}", s);
+    // println!("The value of s is {}", s);
 
-    let mut p: i32 = 5;
-    let p: i32 = 5 * 5;
-    println!("The value of p is {}", p);
+    // let mut p: i32 = 5;
+    // let p: i32 = 5 * 5;
+    // println!("The value of p is {}", p);
 
-    let mut r: i32 = 65;
-    {
-        r = 5;
-        println!("The value of r in the block is {}", r);
-    }
-    println!("The value of r outside the block is {}", r);
+    // let mut r: i32 = 65;
+    // {
+    //     r = 5;
+    //     println!("The value of r in the block is {}", r);
+    // }
+    // println!("The value of r outside the block is {}", r);
 
-    // Constants
-    const PI: f32 = 3.14;
-    println!("The {1} digit of PI is {0}", PI, "hundreds");
+    // // Constants
+    // const PI: f32 = 3.14;
+    // println!("The {1} digit of PI is {0}", PI, "hundreds");
+
+    // COMPOND DATA TYPES
+    // Strings
+    // let mut s = String::from("Hello, ");
+    // s.push_str("Jacob!");
+    // println!("{}", s);
+
+    // let mut growing_string: String = String::from("What a short string");
+    // println!("The length of growing_string is {}", growing_string);
+    // println!(
+    //     "The isEmpty of growing_string is {}",
+    //     growing_string.is_empty()
+    // );
+
+    // println!(
+    //     "The bytes of growing_string is {}",
+    //     growing_string.capacity()
+    // );
+
+    // println!(
+    //     "string is in growing_string {}",
+    //     growing_string.contains("string")
+    // );
+
+    // let str_len: usize = growing_string.len();
+    // println!("The length of growing_string is {}", str_len);
+
+    // let non_string: &str = "";
+    // println!("The isEmpty of non_string is: {}", non_string.is_empty());
+
+    // Tuples and Arrays
 }
