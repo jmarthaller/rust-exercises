@@ -133,15 +133,6 @@ fn main() {
     //     salary, rate, characters
     // );
 
-    // let mut number_array: [i32; 5] = [1, 2, 3, 4, 5];
-    // println!("The value of number_array is {:?}", number_array);
-
-    // Vectors
-    let mut numbers: Vec<i32> = vec![1, 2, 3, 4, 5];
-    let last: i32 = numbers.pop().unwrap();
-    let length = numbers.len() as i32;
-    let actual_last = numbers[4];
-    println!("The value of numbers is {:?}", numbers);
-    println!("The length number of numbers is {length}");
-    println!("the {last} number is {actual_last}");
+    let mut number_array: [i32; 5] = [1, 2, 3, 4, 5];
+    println!("The value of number_array is {:?}", number_array);
 }
